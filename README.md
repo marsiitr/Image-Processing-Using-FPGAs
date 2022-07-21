@@ -4,6 +4,7 @@
 
 The aim of this project is to learn the basics of FPGA (its work, functioning, uses) and implement the HDL (Hardware Descriptive Language) learnt for image processing applications. The original task was to perform the following operations on the given greyscale image using FGPA board –
 1. Increase brightness by ‘value’(given)
+![Increase brightness]("C:\Users\Om Aman Rattan Sher\OneDrive\Documents\GitHub\Image-Processing-Using-FPGAs\Images and Videos\Increase Brightness.jpg" "Increase brightness")
 2. Decrease brightness by ‘value’(given)
 3. Binarize using ‘threshold’(given)
 4. Invert image
