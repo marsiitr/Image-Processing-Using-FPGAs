@@ -64,7 +64,7 @@ Rest all the parts including image processing and input/output are all done in t
 
 ## COST STRUCTURE
  
-<img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Cost%20Table.jpg" alt="Cost table" style="height: 431px; width:571px;"/>
+<img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Cost%20Table.jpg" alt="Cost table" style="height: 159px; width:473px;"/>
 
 ## APPLICATIONS
 Image processing enables robots to become more effective and accurate.
