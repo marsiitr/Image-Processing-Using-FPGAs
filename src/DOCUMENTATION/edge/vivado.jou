@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jul 21 19:38:46 2022
+# Process ID: 47408
+# Current directory: C:/Users/Om Aman Rattan Sher/OneDrive/Documents/GitHub/Image-Processing-Using-FPGAs/src/DOCUMENTATION/edge
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent44624 C:\Users\Om Aman Rattan Sher\OneDrive\Documents\GitHub\Image-Processing-Using-FPGAs\src\DOCUMENTATION\edge\edge.xpr
+# Log file: C:/Users/Om Aman Rattan Sher/OneDrive/Documents/GitHub/Image-Processing-Using-FPGAs/src/DOCUMENTATION/edge/vivado.log
+# Journal file: C:/Users/Om Aman Rattan Sher/OneDrive/Documents/GitHub/Image-Processing-Using-FPGAs/src/DOCUMENTATION/edge\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Om Aman Rattan Sher/OneDrive/Documents/GitHub/Image-Processing-Using-FPGAs/src/DOCUMENTATION/edge/edge.xpr}
+update_compile_order -fileset sources_1

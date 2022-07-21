@@ -2,7 +2,7 @@
 
 ## ABSTRACT
 
-The aim of this project is to learn the basics of FPGA (its work, functioning, uses) and implement the HDL (Hardware Descriptive Language) learnt for image processing applications. The original task was to perform the following operations on the given greyscale image using FGPA board –
+The aim of this project is to learn the basics of FPGA (its work, functioning, uses) and implement the HDL (Hardware Descriptive Language) learnt for image processing applications. The original task was to perform the following operations on the given grayscale image using FGPA board –
 1. Increase brightness by ‘value'
 
 <img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Increase%20Brightness.jpg" alt="Increase brightness" style="height: 431px; width:571px;"/>
@@ -87,5 +87,6 @@ We can use a variety of operations using FPGA boards like movement control, IOT 
 
 ## MENTORS
 1. APURBA PRASAD PADHY
+2. CHIRAG ARORA
 
 ## REFERENCES
