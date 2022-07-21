@@ -4,21 +4,33 @@
 
 The aim of this project is to learn the basics of FPGA (its work, functioning, uses) and implement the HDL (Hardware Descriptive Language) learnt for image processing applications. The original task was to perform the following operations on the given greyscale image using FGPA board –
 1. Increase brightness by ‘value'
+
 <img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Increase%20Brightness.jpg" alt="Increase brightness" style="height: 431px; width:571px;"/>
 
 2. Decrease brightness by ‘value’
+
 <img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Decrease%20Brightness.jpg" alt="Decrease brightness" style="height: 431px; width:571px;"/>
+
 3. Binarize using ‘threshold’
+
 <img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Binarise.jpg" alt="Binarise" style="height: 431px; width:571px;"/>
+
 4. Invert image
+
 <img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Inversion.jpg" alt="Inversion" style="height: 431px; width:571px;"/>
 
 Further the team completed the original task and performed more applications –
+
 1. Sharpen
+
 <img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Sharpening.jpg" alt="Sharpen" style="height: 431px; width:571px;"/>
+
 2. Noise Reduction (Blur)
+
 <img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Noise%20Reduction(Blur).jpg" alt="Blur" style="height: 431px; width:571px;"/>
+
 3. Edge detection
+
 <img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Edge%20Detection.jpg" alt="Edge detection" style="height: 431px; width:571px;"/>
 
 
@@ -52,7 +64,7 @@ Rest all the parts including image processing and input/output are all done in t
 
 ## COST STRUCTURE
  
-<img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Decrease%20Brightness.jpg" alt="Decrease brightness" style="height: 431px; width:571px;"/>
+<img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Cost%20Table.jpg" alt="Cost table" style="height: 431px; width:571px;"/>
 
 ## APPLICATIONS
 Image processing enables robots to become more effective and accurate.
