@@ -1,5 +1,6 @@
 # Image-Processing-Using-FPGAs
-##ABSTRACT
+
+## ABSTRACT
 
 The aim of this project is to learn the basics of FPGA (its work, functioning, uses) and implement the HDL (Hardware Descriptive Language) learnt for image processing applications. The original task was to perform the following operations on the given greyscale image using FGPA board –
 1. Increase brightness by ‘value’(given)
@@ -12,13 +13,13 @@ Further our team completed the original task and performed more applications –
 3. Gaussian Blur
 4. Edge detection
 
-##MOTIVATION
+## MOTIVATION
 
 FPGA (Field Programmable Gate Array) boards are much better than the conventional ASIC (Application specific Integrated Circuits) in terms of flexibility. Also the biggest advantage of FPGA is that it is reprogrammable and therefore can be re-used for different applications unlike conventional ASICs which are specifically designed for particular tasks. FPGAs have a higher non-reoccurring engineering cost than ASICs.
 
 Image processing is an inseparable part of robotics. To make better robots which can see their surroundings well, we require processing the incoming image to output a better and more clarified image which is well understood by the robots for its task and therefore results in a better functioning robot. Image processing such as edge detection and noise reduction are extremely useful for rovers and drones. 
 
-##SOFTWARE ASPECT OF THE PROJECT
+## SOFTWARE ASPECT OF THE PROJECT
 
 Verilog- Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. It is most commonly used in the design and verification of digital circuits at the register-transfer level of abstraction. 
 
@@ -40,30 +41,31 @@ We use a FPGA board with 5 inputs and one output. Five inputs are-
 And the output is the outbyte containing processed pixel value.
 Rest all the parts including image processing and input/output are all done in the HDL code
 
-##COST STRUCTURE
+## COST STRUCTURE
  
 “Aise hi karna hai table banake”
 Isme daalna Python, Vivado, VS code, Open cv
 
-##APPLICATIONS
+## APPLICATIONS
 Image processing enables robots to become more effective and accurate.
 FPGA boards are more flexible than normal ASICs.
 It can be used in more complex bots to achieve optimum performance.
 
-##LIMITATIONS
+## LIMITATIONS
 The Verilog software used to code is not so easy to use and we faced a lot of problems while implementing the code.
 This project is based on testbench for the output whereas ideally it must have performed on an FPGA board.
 
-##FUTURE IMPROVEMENT
+## FUTURE IMPROVEMENT
 We can use a variety of operations using FPGA boards like movement control, IOT based controls, smart monitoring systems, etc. In the field of image processing, we can also work on various complex filters such as median filter, defect detection, movement detection and can also improvise this project for video processing as well.
 
-##TEAM MEMBERS
+## TEAM MEMBERS
 
 1. ABHIKANKSHIT SINGH
 2. JAYANT BAHUGUNA 
 3. MAYANK RAJ
 4. RAJEEV GUPTA
 
-MENTORS
+## MENTORS
 1. APURBA PRASAD PADHY
-REFERENCES
+
+## REFERENCES
