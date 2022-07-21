@@ -23,11 +23,11 @@ Further the team completed the original task and performed more applications –
 
 1. Sharpen
 
-<img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Sharpening.jpg" alt="Sharpen" style="height: 431px; width:571px;"/>
+<img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Sharpening.jpg" alt="Sharpen" style="height: 431px; width:571px;"/>
 
 2. Noise Reduction (Blur)
 
-<img src="hhttps://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Noise%20Reduction(Blur).jpg" alt="Blur" style="height: 431px; width:571px;"/>
+<img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Noise%20Reduction(Blur).jpg" alt="Blur" style="height: 431px; width:571px;"/>
 
 3. Edge detection
 
