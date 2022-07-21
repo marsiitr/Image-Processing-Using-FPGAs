@@ -32,11 +32,11 @@ As an output we again get a text file containing binary data of image. It is the
 Xilinx Vivado - Vivado Design Suite is a software suite produced by Xilinx for synthesis and analysis of hardware description language designs, superseding Xilinx ISE with additional features for system on a chip development and high-level synthesis. Vivado represents a ground-up rewrite and re-thinking of the entire design flow. It is the software used to code the FPGA board.
 
 We use a FPGA board with 5 inputs and one output. Five inputs are-
-1. clock (1 bit)
-2. select state (2 bits)
-3. value (8 bits) 	       
-4. inbyte (8 bits)	
-5. threshold(8 bits)
+1. clk (1 bit) [Clock signal]
+2. inbyte (8 bits) [Grayscale value of input pixel]
+3. select (2 bits) [Select state to toggle functions] 	       
+4. value (8 bits) [value by which the inbyte changes]
+5. threshold (8 bits) [threshold for binarising image]
 
 And the output is the outbyte containing processed pixel value.
 Rest all the parts including image processing and input/output are all done in the HDL code
