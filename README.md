@@ -86,7 +86,11 @@ We can use a variety of operations using FPGA boards like movement control, IOT 
 4. RAJEEV GUPTA
 
 ## MENTORS
+
 1. APURBA PRASAD PADHY
 2. CHIRAG ARORA
 
 ## REFERENCES
+
+1. https://verilogguide.readthedocs.io/en/latest/
+2. https://rashmistudents.yolasite.com/resources/Verilog%20HDL%20-%20Samir%20Palnitkar.pdf
