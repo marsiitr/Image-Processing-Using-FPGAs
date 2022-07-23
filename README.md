@@ -3,33 +3,33 @@
 ## ABSTRACT
 
 The aim of this project is to learn the basics of FPGA (its work, functioning, uses) and implement the HDL (Hardware Descriptive Language) learnt for image processing applications. The original task was to perform the following operations on the given grayscale image using FGPA board –
-1. Increase brightness by ‘value'
+1. Increase brightness by ‘value' [Go to code](https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Increase%20Brightness/Source.v)
 
 <p align="center"><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Original%20Image.jpg" alt="Increase brightness" style="height: 287px; width:380px;"/><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Increase%20Brightness.jpg" alt="Increase brightness" style="height: 287px; width:380px;"/></p>
 
-2. Decrease brightness by ‘value’
+2. Decrease brightness by ‘value’ [Go to code](https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Decrease%20Brightness/Source.v)
 
 <p align="center"><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Original%20Image.jpg" alt="Increase brightness" style="height: 287px; width:380px;"/><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Decrease%20Brightness.jpg" alt="Decrease brightness" style="height: 287px; width:380px;"/></p>
 
-3. Binarize using ‘threshold’
+3. Binarize using ‘threshold’ [Go to code](https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Binarise/Source.v)
 
 <p align="center"><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Original%20Image.jpg" alt="Increase brightness" style="height: 287px; width:380px;"/><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Binarise.jpg" alt="Binarise" style="height: 287px; width:380px;"/></p>
 
-4. Invert image
+4. Invert image [Go to code](https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Invert/Source.v)
 
 <p align="center"><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Original%20Image.jpg" alt="Increase brightness" style="height: 287px; width:380px;"/><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Inversion.jpg" alt="Inversion" style="height: 287px; width:380px;"/></p>
 
 Further the team completed the original task and performed more applications –
 
-1. Sharpen
+1. Sharpen [Go to code](https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Sharpen/Source.v)
 
 <p align="center"><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Original%20Image.jpg" alt="Increase brightness" style="height: 287px; width:380px;"/><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Sharpening.jpg" alt="Sharpen" style="height: 287px; width:380px;"/></p>
 
-2. Noise Reduction (Blur)
+2. Noise Reduction (Blur) [Go to code](https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Noise%20reduction/Source.v)
 
 <p align="center"><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Original%20Image.jpg" alt="Increase brightness" style="height: 287px; width:380px;"/><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Noise%20Reduction(Blur).jpg" alt="Blur" style="height: 287px; width:380px;"/></p>
 
-3. Edge detection
+3. Edge detection [Go to code](https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Edge%20detection/Source.v)
 
 <p align="center"><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Original%20Image.jpg" alt="Increase brightness" style="height: 287px; width:380px;"/><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Edge%20Detection.jpg" alt="Edge detection" style="height: 287px; width:380px;"/></p>
 
