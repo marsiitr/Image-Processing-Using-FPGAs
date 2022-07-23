@@ -80,15 +80,15 @@ We can use a variety of operations using FPGA boards like movement control, IOT 
 
 ## TEAM MEMBERS
 
-1. ABHIKANKSHIT SINGH
-2. JAYANT BAHUGUNA 
-3. MAYANK RAJ
-4. RAJEEV GUPTA
+1. [ABHIKANKSHIT SINGH](https://github.com/OARSS)
+2. [JAYANT BAHUGUNA](https://github.com/jayantb007) 
+3. [MAYANK RAJ](https://github.com/mayank4655)
+4. [RAJEEV GUPTA](https://github.com/Rajeev-Gupta555)
 
 ## MENTORS
 
-1. APURBA PRASAD PADHY
-2. CHIRAG ARORA
+1. [APURBA PRASAD PADHY](https://github.com/apurba-pp)
+2. [CHIRAG ARORA](https://github.com/chirag-ar)
 
 ## REFERENCES
 
