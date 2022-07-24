@@ -42,15 +42,25 @@ Image processing is an inseparable part of robotics. To make better robots which
 
 ## SOFTWARE ASPECT OF THE PROJECT
 
-Verilog- Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. It is most commonly used in the design and verification of digital circuits at the register-transfer level of abstraction. 
+Python - is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
 
-Testbench- A testbench is code module that uses hardware description languages (HDL) to describe the stimulus to a logic design and check whether the design's outputs match its specification. In order to check if the code will work perfectly with the FPGA board we first upload the code to a testbench and verify its output.
+Verilog-Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. It is most commonly used in the design and verification of digital circuits at the register-transfer level of abstraction.
 
-Python-It is an interpreted high-level object-oriented programming language designed by Guido van Rossum. We used python to convert the input image to a binary file and also to convert the output received by the testbench to convert it back into the image. There are numbers of project libraries which are regularly maintained and are free to use. We used opencv, for image to text conversions and vice-versa, and numpy,  to do required operations much faster and efficiently. Text converted image is basically a numpy array (3D matrix) which represents pixels of image in 2D screen. Before sending the txt file to FPGA, we are required to convert those pixel values (ranging from 0-256) to 8-bit binary value separated by space or new-line. These operations need to be fast so that the processing speed is not affected, hence numpy comes useful. This terminal is then sent to FPGA for further processing.
+Xilinx Vivado-Vivado Design Suite is a software suite produced by Xilinx for synthesis and analysis of hardware description language designs, superseding Xilinx ISE with additional features for system on a chip development and high-level synthesis. Vivado represents a ground-up rewrite and re-thinking of the entire design flow. It is the software used to code the FPGA board.
 
-As an output we again get a text file containing binary data of image. It is then reconverted to decimal values and read to form 2D array of pixels, and then to image. 
+TestBench- A testbench is code module that uses hardware description languages (HDL) to describe the stimulus to a logic design and check whether the design's outputs match its specification. In order to check if the code will work perfectly with the FPGA board we first upload the code to a testbench and verify its output.
 
-Xilinx Vivado - Vivado Design Suite is a software suite produced by Xilinx for synthesis and analysis of hardware description language designs, superseding Xilinx ISE with additional features for system on a chip development and high-level synthesis. Vivado represents a ground-up rewrite and re-thinking of the entire design flow. It is the software used to code the FPGA board.
+VS Code-Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.
+
+OpenCV-OpenCV is a library of programming functions mainly aimed at real-time computer vision. Originally developed by Intel, it was later supported by Willow Garage then Itseez. The library is cross-platform and free for use under the open-source Apache 2 License.
+
+## WORKING
+- Convert the original image to binary file with the help of python via OpenCV and VS code.
+- Open vivado and add input variables such as value, threshold, select state and file paths to the testbench file.
+- Run the simulation for some time .
+- Now close the simulation and check the folder. A ouput binary file would be created.
+- Convert the output binary file to image via python again.
+- We get the processed image. 
 
 We use a FPGA board with 5 inputs and one output. Five inputs are-
 1. clk (1 bit) [Clock signal]
