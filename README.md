@@ -72,6 +72,8 @@ We use a FPGA board with 5 inputs and one output. Five inputs are-
 And the output is the outbyte containing processed pixel value.
 Rest all the parts including image processing and input/output are all done in the HDL code
 
+<p align="center"><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Original%20Image.jpg" alt="Increase brightness" style="height: 287px; width:380px;"/><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Workflow.jpg" alt="Edge detection"/></p>
+
 ## COST STRUCTURE
  
 <p align="center"><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Cost%20Table.jpg" alt="Cost table" style="height: 159px; width:473px;"/></p>
