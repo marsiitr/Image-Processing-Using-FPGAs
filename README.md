@@ -1,8 +1,8 @@
 # Image-Processing-Using-FPGAs
 
 ## ABSTRACT
-
-The aim of this project is to learn the basics of FPGA (its work, functioning, uses) and implement the HDL (Hardware Descriptive Language) learnt for image processing applications. The original task was to perform the following operations on the given grayscale image using FGPA board –
+<div style="text-align: justify">
+The aim of this project is to learn the basics of FPGA (its work, functioning, uses) and implement the HDL (Hardware Descriptive Language) learnt for image processing applications. The original task was to perform the following operations on the given grayscale image using FGPA board –</div>
 1. Increase brightness by ‘value' [(Go to code)](https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/src/Increase%20Brightness/Source.v)
 
 <p align="center"><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Original%20Image.jpg" alt="Original Image" style="height: 287px; width:380px;"/><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Increase%20Brightness.jpg" alt="Increase brightness" style="height: 287px; width:380px;"/></p>
@@ -35,12 +35,14 @@ Further the team completed the original task and performed more applications –
 
 
 ## MOTIVATION
-
+<div style="text-align: justify">
 FPGA (Field Programmable Gate Array) boards are much better than the conventional ASIC (Application specific Integrated Circuits) in terms of flexibility. Also the biggest advantage of FPGA is that it is reprogrammable and therefore can be re-used for different applications unlike conventional ASICs which are specifically designed for particular tasks. FPGAs have a higher non-reoccurring engineering cost than ASICs.
 
-Image processing is an inseparable part of robotics. To make better robots which can see their surroundings well, we require processing the incoming image to output a better and more clarified image which is well understood by the robots for its task and therefore results in a better functioning robot. Image processing such as edge detection and noise reduction are extremely useful for rovers and drones. 
+Image processing is an inseparable part of robotics. To make better robots which can see their surroundings well, we require processing the incoming image to output a better and more clarified image which is well understood by the robots for its task and therefore results in a better functioning robot. Image processing such as edge detection and noise reduction are extremely useful for rovers and drones. </div>
 
 ## SOFTWARE ASPECT OF THE PROJECT
+
+<div style="text-align: justify">
 
 Python - is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python supports modules and packages, which encourages program modularity and code reuse.
 
@@ -52,9 +54,10 @@ TestBench- A testbench is code module that uses hardware description languages (
 
 VS Code-Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.
 
-OpenCV-OpenCV is a library of programming functions mainly aimed at real-time computer vision. Originally developed by Intel, it was later supported by Willow Garage then Itseez. The library is cross-platform and free for use under the open-source Apache 2 License.
+OpenCV-OpenCV is a library of programming functions mainly aimed at real-time computer vision. Originally developed by Intel, it was later supported by Willow Garage then Itseez. The library is cross-platform and free for use under the open-source Apache 2 License.</div>
 
 ## WORKING
+<div style="text-align: justify">
 - Convert the original image to binary file with the help of python via OpenCV and VS code.
 - Open vivado and add input variables such as value, threshold, select state and file paths to the testbench file.
 - Run the simulation for some time .
@@ -70,7 +73,7 @@ We use a FPGA board with 5 inputs and one output. Five inputs are-
 5. threshold (8 bits) [threshold for binarising image]
 
 And the output is the outbyte containing processed pixel value.
-Rest all the parts including image processing and input/output are all done in the HDL code
+Rest all the parts including image processing and input/output are all done in the HDL code</div>
 
 <p align="center"><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Workflow.jpg" alt="Edge detection"/></p>
 
@@ -79,16 +82,20 @@ Rest all the parts including image processing and input/output are all done in t
 <p align="center"><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Cost%20Table.jpg" alt="Cost table" style="height: 159px; width:473px;"/></p>
 
 ## APPLICATIONS
+<div style="text-align: justify">
 Image processing enables robots to become more effective and accurate.
 FPGA boards are more flexible than normal ASICs.
 It can be used in more complex bots to achieve optimum performance.
+</div>
 
 ## LIMITATIONS
+<div style="text-align: justify">
 The Verilog software used to code is not so easy to use and we faced a lot of problems while implementing the code.
-This project is based on testbench for the output whereas ideally it must have performed on an FPGA board.
+This project is based on testbench for the output whereas ideally it must have performed on an FPGA board.</div>
 
 ## FUTURE IMPROVEMENT
-We can use a variety of operations using FPGA boards like movement control, IOT based controls, smart monitoring systems, etc. In the field of image processing, we can also work on various complex filters such as median filter, defect detection, movement detection and can also improvise this project for video processing as well.
+<div style="text-align: justify">
+We can use a variety of operations using FPGA boards like movement control, IOT based controls, smart monitoring systems, etc. In the field of image processing, we can also work on various complex filters such as median filter, defect detection, movement detection and can also improvise this project for video processing as well.</div>
 
 ## TEAM MEMBERS
 
