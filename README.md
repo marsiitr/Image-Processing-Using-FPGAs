@@ -61,11 +61,11 @@ OpenCV-OpenCV is a library of programming functions mainly aimed at real-time co
 - Convert the output binary file to an image via python again. <br>
 - We get the processed image.<br>
 We use an FPGA board with five inputs and one output. Five inputs are-<br><br>
-* clk (1 bit) [Clock signal]<br>
-* inbyte (8 bits) [Grayscale value of input pixel]<br>
-* select (2 bits) [Select state to toggle functions]<br>
-* value (8 bits) [value by which the inbyte changes]<br>
-* threshold (8 bits) [threshold for binarising image]<br><br>
+clk (1 bit) [Clock signal]<br>
+inbyte (8 bits) [Grayscale value of input pixel]<br>
+select (2 bits) [Select state to toggle functions]<br>
+value (8 bits) [value by which the inbyte changes]<br>
+threshold (8 bits) [threshold for binarising image]<br><br>
 And the output is the outbyte containing the processed pixel value. Rest all the parts, including image processing and input/output, are all done in the HDL code</div>
 
 <p align="center"><img src="https://github.com/OARSS/Image-Processing-Using-FPGAs/blob/main/Images%20and%20Videos/Images/Workflow.jpg" alt="Edge detection"/></p>
